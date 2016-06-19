@@ -101,14 +101,10 @@
 		9AC63C021D16878D004BB96D /* MusicVideoObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
-				9AC63C061D16878D004BB96D /* AppDelegate.h */,
-				9AC63C071D16878D004BB96D /* AppDelegate.m */,
-				9AC63C091D16878D004BB96D /* ViewController.h */,
-				9AC63C0A1D16878D004BB96D /* ViewController.m */,
-				9AC63C0C1D16878D004BB96D /* Main.storyboard */,
-				9AC63C0F1D16878D004BB96D /* Assets.xcassets */,
-				9AC63C111D16878D004BB96D /* LaunchScreen.storyboard */,
-				9AC63C141D16878D004BB96D /* Info.plist */,
+				9AC63C391D16A005004BB96D /* Supporting files */,
+				9AC63C381D169FC7004BB96D /* View */,
+				9AC63C371D169F93004BB96D /* Controller */,
+				9AC63C361D169F6D004BB96D /* Model */,
 				9AC63C031D16878D004BB96D /* Supporting Files */,
 			);
 			path = MusicVideoObjectiveC;
@@ -138,6 +134,42 @@
 				9AC63C2A1D16878D004BB96D /* Info.plist */,
 			);
 			path = MusicVideoObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+		9AC63C361D169F6D004BB96D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9AC63C371D169F93004BB96D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AC63C091D16878D004BB96D /* ViewController.h */,
+				9AC63C0A1D16878D004BB96D /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9AC63C381D169FC7004BB96D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AC63C0C1D16878D004BB96D /* Main.storyboard */,
+				9AC63C111D16878D004BB96D /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9AC63C391D16A005004BB96D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC63C0F1D16878D004BB96D /* Assets.xcassets */,
+				9AC63C141D16878D004BB96D /* Info.plist */,
+				9AC63C061D16878D004BB96D /* AppDelegate.h */,
+				9AC63C071D16878D004BB96D /* AppDelegate.m */,
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
